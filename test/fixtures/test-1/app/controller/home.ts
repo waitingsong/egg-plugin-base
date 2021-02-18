@@ -17,8 +17,8 @@ export default class HomeController extends Controller {
   }
 
   _hello(): string {
-    const plugin: PluginInfo = this.app.plugins[pluginName]
-    return `hi, ${plugin.name}`
+    const plugin: PluginInfo | undefined = this.app.plugins[pluginName]
+    return `hi, ${plugin ? plugin.name : ''}`
   }
 
 }

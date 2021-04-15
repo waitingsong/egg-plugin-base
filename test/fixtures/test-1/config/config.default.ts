@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unsafe-assignment */
 // eslint-disable-next-line node/no-unpublished-import
 import { JwtEggConfig } from '../../../../dist/index'
 

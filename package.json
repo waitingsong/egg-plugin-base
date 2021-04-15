@@ -70,12 +70,15 @@
     "node": ">=12.13.0"
   },
   "files": [
+    "tsconfig.json",
+    "rollup.config.js",
     "src/**/*.ts",
+    "bin/*.js",
+    "dist",
     "agent.js",
     "app.js",
     "app",
     "config",
-    "dist",
     "*.d.ts"
   ],
   "publishConfig": {

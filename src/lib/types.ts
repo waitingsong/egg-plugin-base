@@ -1,3 +1,4 @@
+/* eslint-disable node/no-unpublished-import */
 import { JsonType } from '@waiting/shared-types'
 // eslint-disable-next-line import/no-extraneous-dependencies
 import { Context } from 'egg'
